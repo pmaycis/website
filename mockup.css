@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: beige;
+}
+.mockup{
+    width: 320px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+}
+.mockup-inner{
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    background-image: url("PRECIOUS.png");
+    background-position: center;
+    background-size: cover;
+}
+.mockup .mockup-inner{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    position: absolute;
+    background-position: top;
+    background-size:  cover;
+    top: 30px;
+    border: 6px solid rgb(59, 59, 43);
+    box-shadow: 0 px 1px 8px rgba(0, 0, 0, 0.0.25);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+label, input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: rgb(68, 67, 67);
+
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: beige;
+    color: #000;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+} 
+button[type="submit"]:hover {
+    background-color: rgb(58, 58, 41);
+}
+button[type="submit"]:hover {
+    color: #fff;
+}  
