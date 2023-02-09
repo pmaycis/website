@@ -61,7 +61,7 @@ label, input[type="text"], input[type="password"] {
 button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: beige;
+    background-color: red;
     color: #000;
     border: 0;
     border-radius: 5px;
